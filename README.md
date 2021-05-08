@@ -11,7 +11,7 @@ Lot of fatalities occur simply because of delayed medical assistance because the
 A security glove that uses gestures to initiate tasing and automatically conveys an SOS message through our application. We use ESP8266 wifi module to form a connection with the cloud and a low voltage circuit as a tasing prototype and a MPU6050 accelerometer to act as a gesture sensor that initiates the tasing action and updates the data on the cloud through wifi module. When the data is being updated, we use cloud services to initiate an SOS message.
 
 <p align="center">
-  <img width="700" src="https://github.com/Shakthi-Dhar/Chidori-TaserGlove/blob/main/assets/flow%20chart.png" alt="Flow chart">
+  <img width="400" src="https://github.com/Shakthi-Dhar/Chidori-TaserGlove/blob/main/assets/flow%20chart.png" alt="Flow chart">
 </p>
 
 <h3>Hardware Tech stack used</h3>
