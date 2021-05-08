@@ -30,3 +30,17 @@ calibrating to identify the gesture performed by the user.
   <img width="500" src="https://github.com/Shakthi-Dhar/Chidori-TaserGlove/blob/main/assets/circuit.png" alt="Hardware">
 </p>
 
+<h3>We have used the following Arduino packages and libraries:</h3>
+
+- I2C dev libraries
+
+- ESP8266WiFi 
+
+- ESP8266 http client access
+
+We have made our own api to send a get request for updating the database inorder to send a SOS message through our application: <i>http://security-glove.herokuapp.com/notify</i>
+
+On updating the database we get a notification alert and also email stating that an emrgency has beend triggered:
+<p align="center">
+  <img height="350" src="https://github.com/Shakthi-Dhar/Chidori-TaserGlove/blob/main/assets/notif.jfif" alt="Notif"><img height="350" src="https://github.com/Shakthi-Dhar/Chidori-TaserGlove/blob/main/assets/mail.jfif" alt="Mail">
+</p>
